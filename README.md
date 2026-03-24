@@ -1,6 +1,6 @@
 # 📝 get_next_line
 
-A C function that reads a single line from a file descriptor.
+A C function that reads a single line from a file descriptor as part of the 42 School curriculum..
 
 ## Description
 
