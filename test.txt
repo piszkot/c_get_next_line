@@ -1,0 +1,32 @@
+This is the first line.
+Short.
+A slightly longer line follows this one.
+	This line starts with a tab character.
+   This line starts with three spaces.
+This line has a trailing space.   
+UPPERCASE LINE.
+lowercase line.
+MiXeD cAsE lInE.
+Line with numbers: 1234567890.
+Line with special characters: !@#$%^&*()_+-=[]{}|;':",.<>?/`~
+Line with a backslash: C:\Users\test\file.txt
+Line with quotes: "double quoted" and 'single quoted'.
+Line with unicode: café, naïve, résumé, Ångström, Ñoño.
+Line with emoji: 😀 🎉 🔥 💻 🐍
+This line is exactly here to test if your buffer splits it right in the middle of a word unexpectedly.
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
+Line after very long lines.
+\n this is not a newline, just backslash-n.
+NULL would be \0 in C but here it is just text.
+Line with multiple   consecutive   spaces   inside.
+Another normal line.
+The next line is intentionally empty.
+
+Back to normal after empty line.
+Two empty lines follow.
+
+
+Back after two empty lines.
+This is the second to last line.
+This is the last line with no newline at the end.
