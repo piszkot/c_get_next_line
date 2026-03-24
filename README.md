@@ -47,17 +47,17 @@ cc -Wall -Wextra -Werror -D BUFFER_SIZE=42 get_next_line.c get_next_line_utils.c
 
 ## How it works
 
+```text
 get_next_line()
-    │
-    ├── buffer empty? → read_buf() → read data from file
-    │
-    ├── find_newline()
-    │       │
-    │       ├── \n found → complete_line() → return line
-    │       │
-    │       └── no \n → add_chunk() → append buffer → read more
-    │
-    └── EOF/error → return NULL
+│
+├── buffer empty? → read_buf() → read data from file
+│
+├── find_newline()
+│   ├── \n found → complete_line() → return line
+│   └── no \n → add_chunk() → append buffer → read more
+│
+└── EOF/error → return NULL
+```
 
 ## 🛠️ To be compliant with Norm 42, install Norminette:
 python3 -m venv venv && source venv/bin/activate && pip install -U norminette
